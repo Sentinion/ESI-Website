@@ -1,14 +1,40 @@
 @charset "utf-8";
 /* CSS Document */
 
-header {
-	background-color:#1741C4;
+
+@font-face {
+	font-family: Blern;
+	src: url(Blern_Regular.otf);
+}
+
+@font-face {
+	font-family: Abel;
+	src: url(Abel-Regular.ttf);
+}
+body {
+	background-color:#1E2B6E;
 	height: 200px;
 	padding: 25px;
 	
 	font-family: Georgia;
 	text-align: center;
-	color: #343333;
+	color: #E9EBE9;
 	font-size: 14px;
 	line-height: 22px;
 }
+
+h1 {
+	font-family: Blern;
+}
+
+header {
+	background-color:#B5B5B5;
+	height: 200px;
+	padding: 25px;
+	
+	font-family: Abel;
+	text-align: center;
+	color: #000000;
+	line-height: 22px;
+}
+
